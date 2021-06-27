@@ -1,0 +1,23 @@
+header {
+    background-color: rgb(211, 211, 211);
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    border-radius: 50%;
+    margin-bottom: 20px;
+    height: 60px;
+    width: 60px;
+    background-color: rgb(32, 182, 125);
+}
+
+main article #Proyectos {
+    background-color: rgb(28, 73, 71);
+}
+
+main article #contacto {
+    background-color: rgb(28, 73, 71);
+}
