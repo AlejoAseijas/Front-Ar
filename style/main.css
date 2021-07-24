@@ -1,0 +1,168 @@
+body {
+  overflow-x: hidden; }
+
+header #homeComponent {
+  position: absolute;
+  width: 1787px;
+  height: 1341px;
+  top: -632px;
+  left: -184px;
+  background-image: url("../style/img/homeBackground.jpg"); }
+  header #homeComponent .title {
+    position: absolute;
+    width: 223px;
+    height: 77px;
+    margin: 648px 1276px 616px 288px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    header #homeComponent .title h1 {
+      font-family: 'Lato', sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      color: #F2F2F2;
+      font-size: 64px;
+      line-height: 77px;
+      text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25); }
+  header #homeComponent .line {
+    position: absolute;
+    width: 1239px;
+    height: 0px;
+    border: 1px solid #F2F2F2;
+    margin: 734px 263px 607px 285px; }
+  header #homeComponent .ecommerTitle {
+    position: absolute;
+    margin: 830px 722px 404px 285px;
+    width: 780px;
+    height: 107px;
+    display: flex;
+    align-items: center; }
+    header #homeComponent .ecommerTitle h2 {
+      font-family: 'Cardo', sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 100px;
+      line-height: 135px;
+      font-feature-settings: "tnum" on, "lnum" on;
+      color: #F2F2F2;
+      text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25); }
+  header #homeComponent .ecommerceDescription {
+    position: absolute;
+    width: 433px;
+    height: 72px;
+    margin: 933px 1059px 326px 285px; }
+    header #homeComponent .ecommerceDescription .descriptionEcommerce {
+      font-family: "Lato", sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 30px;
+      line-height: 36px;
+      display: flex;
+      align-items: center;
+      font-feature-settings: "tnum" on, "lnum" on;
+      color: rgba(242, 242, 242, 0.86); }
+  header #homeComponent .contacButtton {
+    position: absolute;
+    width: 260px;
+    height: 45px;
+    margin: 1121px 1242px 175px 285px;
+    border-radius: 20px;
+    background-color: #084347;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25); }
+    header #homeComponent .contacButtton p {
+      font-family: "Abhaya Libre", serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 28px;
+      font-feature-settings: "tnum" on, "lnum" on;
+      color: #F2F2F2;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); }
+  header #homeComponent nav ul {
+    position: absolute;
+    margin: 790px 232px 488px 1492px;
+    list-style: none; }
+    header #homeComponent nav ul li {
+      width: 63px;
+      height: 63px;
+      border-radius: 50%;
+      background: #084347;
+      box-shadow: 0px 4px 10px 2px rgba(0, 0, 0, 0.25);
+      margin-bottom: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      header #homeComponent nav ul li .inicio {
+        width: 35px;
+        height: 35px;
+        background-image: url("../style/img/homeIcon.png"); }
+      header #homeComponent nav ul li .desarrollos {
+        width: 35px;
+        height: 35px;
+        background-image: url("../style/img/desarrolloIcon.png"); }
+      header #homeComponent nav ul li .proyectos {
+        width: 35px;
+        height: 35px;
+        background-image: url("../style/img/proyectosIcon.png"); }
+      header #homeComponent nav ul li .contacto {
+        width: 35px;
+        height: 35px;
+        background-image: url("../style/img/contactoIcon.png"); }
+  header #homeComponent .wspItem {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    margin: 1166px 232px 95px 1525px;
+    background-color: #084347;
+    box-shadow: 0px 4px 10px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    header #homeComponent .wspItem .wsp {
+      width: 55px;
+      height: 56px;
+      background-image: url("../style/img/wspIcon.png"); }
+
+section #desarrollos .title {
+  position: absolute;
+  width: 327px;
+  height: 82px;
+  margin: 739px 582px 2475px 531px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  section #desarrollos .title h3 {
+    font-family: "Cardo", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 87px;
+    color: #084347;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); }
+
+.ecommerceSection {
+  position: absolute;
+  width: 269px;
+  height: 91px;
+  margin: 934px 926px 2369px 245px;
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row; }
+  .ecommerceSection .cart {
+    width: 48px;
+    height: 48px;
+    background-image: url("../style/img/cartIcon.png"); }
+    .ecommerceSection .cart h4 {
+      font-family: "Cardo", sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 36px;
+      line-height: 49px;
+      display: flex;
+      align-items: center;
+      color: #084347; }
