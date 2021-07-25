@@ -1,8 +1,17 @@
 body {
     overflow-x: hidden;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "home"
+        "desarrollos"
+        "proyectos"
+        "partners"
+        "footer";
 }
 
 header #homeComponent {
+    grid-area: home;
     position: absolute;
     width: 1787px;
     height: 1341px;
@@ -166,224 +175,240 @@ header #homeComponent {
     }
 }
 
+section #desarrollos {
+    grid-area: desarrollos;
 
+    .title {
+        position: absolute;
+        width: 327px;
+        height: 82px;
+        top: 739px;
+        left: 531px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
-section #desarrollos .title {
-    position: absolute;
-    width: 327px;
-    height: 82px;
-    margin: 739px 582px 2475px 531px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    h3 {
-        font-family: "Cardo", sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 64px;
-        line-height: 87px;
-        color: #084347;
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        h3 {
+            font-family: "Cardo", sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 64px;
+            line-height: 87px;
+            color: #084347;
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        }
     }
-}
 
-.ecommerceSection {
-    position: absolute;
-    width: 269px;
-    height: 91px;
-    margin: 934px 926px 2369px 245px;
-    display: flex;
-    align-items: center;
+    .ecommerceSection {
+        position: absolute;
+        top: 834px;
+        left: 187px;
+        width: 269px;
+        height: 91px;
+        display: flex;
+        align-items: center;
 
-    h4 {
-        font-family: "Cardo", sans-serif;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 36px;
-        line-height: 49px;
-        color: #084347;
-        margin-left: 15px;
-        display: inline-block;
+        h4 {
+            top: 837px;
+            left: 245px;
+            font-family: "Cardo", sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 36px;
+            line-height: 49px;
+            color: #084347;
+            margin-left: 15px;
+            display: inline-block;
+        }
     }
-}
 
-ul {
-    list-style: none;
-}
+    ul {
+        list-style: none;
+    }
 
-ul li:first-child {
-    font-weight: 900;
-    color: #000000;
-}
-
-.aEcommerce {
-    position: absolute;
-    width: auto;
-    height: 132px;
-    margin: 1036px 926px 2369px 245px;
-
-    li {
-        font-family: 'Lato', sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 18px;
-        line-height: 22px;
+    ul li:first-child {
+        font-weight: 900;
         color: #000000;
-        opacity: 0.8;
     }
-}
 
-.bEcommerce {
-    position: absolute;
-    width: 360px;
-    height: 110px;
-    margin: 1182px 926px 2369px 245px;
+    .aEcommerce {
+        position: absolute;
+        top: 939px;
+        left: 187px;
+        width: auto;
+        height: 132px;
 
-    li {
-        font-family: 'Lato', sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 18px;
-        line-height: 22px;
-        color: #000000;
-        opacity: 0.8;
+        li {
+            font-family: 'Lato', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 22px;
+            color: #000000;
+            opacity: 0.8;
+        }
     }
-}
 
-.cEcommerce {
-    position: absolute;
-    width: auto;
-    height: 132px;
-    margin: 1308px 926px 2369px 245px;
+    .bEcommerce {
+        position: absolute;
+        width: 360px;
+        height: 110px;
+        top: 1082px;
+        left: 187px;
 
-    li {
-        font-family: 'Lato', sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 18px;
-        line-height: 22px;
-        color: #000000;
-        opacity: 0.8;
+        li {
+            font-family: 'Lato', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 22px;
+            color: #000000;
+            opacity: 0.8;
+        }
     }
-}
 
-.webInstitucional {
-    position: absolute;
-    width: 312px;
-    height: 91px;
-    margin: 934px 926px 2369px 644px;
-    display: flex;
-    align-items: center;
+    .cEcommerce {
+        position: absolute;
+        width: auto;
+        height: 132px;
+        top: 1208px;
+        left: 187px;
 
-    h4 {
-        font-family: "Cardo", sans-serif;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 32px;
-        line-height: 49px;
-        color: #084347;
-        margin-left: 15px;
-        display: inline-block;
+        li {
+            font-family: 'Lato', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 22px;
+            color: #000000;
+            opacity: 0.8;
+        }
     }
-}
 
-.dEcommerce {
-    position: absolute;
-    width: 300px;
-    height: 66px;
-    margin: 1036px 926px 2369px 644px;
+    .webInstitucional {
+        position: absolute;
+        width: 312px;
+        height: 91px;
+        top: 834px;
+        left: 590px;
+        display: flex;
+        align-items: center;
 
-    li {
-        font-family: 'Lato', sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 18px;
-        line-height: 22px;
-        color: #000000;
-        opacity: 0.8;
+        h4 {
+            font-family: "Cardo", sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 32px;
+            line-height: 49px;
+            color: rgba(10, 10, 10, 0.5);
+            margin-left: 15px;
+            display: inline-block;
+        }
     }
-}
 
-.eEcommerce {
-    position: absolute;
-    width: 268px;
-    height: 66px;
-    margin: 1119px 926px 2369px 644px;
+    .dEcommerce {
+        position: absolute;
+        width: 300px;
+        height: 66px;
+        top: 939px;
+        left: 595px;
 
-    li {
-        font-family: 'Lato', sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 18px;
-        line-height: 22px;
-        color: #000000;
-        opacity: 0.8;
+        li {
+            font-family: 'Lato', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 22px;
+            color: #000000;
+            opacity: 0.8;
+        }
     }
-}
 
-.fEcommerce {
-    position: absolute;
-    width: 250px;
-    height: 88px;
-    margin: 1214px 926px 2369px 644px;
+    .eEcommerce {
+        position: absolute;
+        width: 268px;
+        height: 66px;
+        top: 1012px;
+        left: 595px;
 
-    li {
-        font-family: 'Lato', sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 18px;
-        line-height: 22px;
-        color: #000000;
-        opacity: 0.8;
+        li {
+            font-family: 'Lato', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 22px;
+            color: #000000;
+            opacity: 0.8;
+        }
     }
-}
 
-.gEcommerce {
-    position: absolute;
-    width: 380px;
-    height: 88px;
-    margin: 1315px 926px 2369px 644px;
+    .fEcommerce {
+        position: absolute;
+        width: 250px;
+        height: 88px;
+        top: 1107px;
+        left: 595px;
 
-    li {
-        font-family: 'Lato', sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 18px;
-        line-height: 22px;
-        color: #000000;
-        opacity: 0.8;
+        li {
+            font-family: 'Lato', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 22px;
+            color: #000000;
+            opacity: 0.8;
+        }
     }
-}
 
-.oneCel {
-    position: absolute;
-    width: 600px;
-    height: 450px;
-    margin: 903px 60px 2043px 830px;
-}
+    .gEcommerce {
+        position: absolute;
+        width: 380px;
+        height: 88px;
+        top: 1208px;
+        left: 595px;
 
-.secondCel {
-    position: absolute;
-    width: 500px;
-    height: 375px;
-    margin: 1108px 65px 1943px 1055px;
+        li {
+            font-family: 'Lato', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 22px;
+            color: #000000;
+            opacity: 0.8;
+        }
+    }
+
+    .oneCel {
+        position: absolute;
+        width: 600px;
+        height: 450px;
+        top: 803px;
+        left: 780px;
+    }
+
+    .secondCel {
+        position: absolute;
+        width: 500px;
+        height: 375px;
+        top: 970px;
+        left: 1005px;
+    }
+
 }
 
 #proyectos {
+    grid-area: proyectos;
     position: absolute;
     width: 1540px;
     height: 760px;
-    margin: 1500px 800px 1165px -10px;
+    top: 1410px;
+    left: 0px;
     background-color: #084347;
 
     .title {
         width: 265px;
         height: 87px;
-        margin: 53px 613px 620px 562px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        margin: 53px 562px;
 
         h3 {
             font-family: 'Cardo', sans-serif;
@@ -395,24 +420,32 @@ ul li:first-child {
         }
     }
 
+    .pcOne {
+        position: absolute;
+        width: 600px;
+        height: 450px;
+        top: 140px;
+        left: 92px;
+    }
+
+    .pcSecond {
+        position: absolute;
+        width: 600px;
+        height: 450px;
+        top: 140px;
+        left: 758px;
+    }
 }
 
-.pcContainer {
-    position: absolute;
-    width: 1300px;
-    height: 450px;
-    margin: -610px 748px 129px 92px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
-}
 
 #partners {
+    grid-area: partners;
     position: absolute;
     width: 1540px;
-    height: 368px;
-    margin: 2200px 800px 1665px -10px;
+    height: 420px;
+    top: 2170px;
+    left: 0px;
     background-color: #E5E5E5;
 
     .title {
@@ -432,12 +465,65 @@ ul li:first-child {
             color: #084347
         }
     }
+
+    .tiendaNube {
+        position: absolute;
+        width: 494px;
+        height: 101px;
+        top: 190px;
+        left: 145px;
+    }
+
+    .wix {
+        position: absolute;
+        width: 189px;
+        height: 106px;
+        top: 190px;
+        left: 963px;
+    }
 }
 
-.partnersLogos {
-    width: 900px;
-    height: 101px;
-    margin: -600px 803px 852px 245px;
-    display: flex;
-    justify-content: space-between;
+footer {
+    position: absolute;
+    grid-area: footer;
+    width: 1600px;
+    height: 707px;
+    top: 2588px;
+    left: 0px;
+    background-color: #084347;
+
+    .moveText {
+        position: absolute;
+        width: 1840px;
+        height: 152px;
+        top: 278px;
+        left: -3px;
+        background: #F2F2F2;
+    }
+
+    .contacCircle {
+        position: absolute;
+        width: 270px;
+        height: 270px;
+        top: 220px;
+        left: 581px;
+        border-radius: 50%;
+        background: #084347;
+        border: 9px solid #F2F2F2;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        h3 {
+            font-family: 'Cardo', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 36px;
+            line-height: 49px;
+            color: #F2F2F2;
+        }
+    }
+
+
 }
