@@ -5,9 +5,11 @@ header #homeComponent {
   position: absolute;
   width: 1787px;
   height: 1341px;
-  top: -632px;
+  top: -622px;
   left: -184px;
-  background-image: url("../style/img/homeBackground.jpg"); }
+  background-image: url("./img/backGround.png");
+  background-repeat: no-repeat;
+  background-size: cover; }
   header #homeComponent .title {
     position: absolute;
     width: 223px;
@@ -149,20 +151,206 @@ section #desarrollos .title {
   width: 269px;
   height: 91px;
   margin: 934px 926px 2369px 245px;
-  border: 1px solid black;
   display: flex;
-  flex-wrap: nowrap;
-  flex-direction: row; }
-  .ecommerceSection .cart {
-    width: 48px;
-    height: 48px;
-    background-image: url("../style/img/cartIcon.png"); }
-    .ecommerceSection .cart h4 {
-      font-family: "Cardo", sans-serif;
+  align-items: center; }
+  .ecommerceSection h4 {
+    font-family: "Cardo", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+    color: #084347;
+    margin-left: 15px;
+    display: inline-block; }
+
+ul {
+  list-style: none; }
+
+ul li:first-child {
+  font-weight: 900;
+  color: #000000; }
+
+.aEcommerce {
+  position: absolute;
+  width: auto;
+  height: 132px;
+  margin: 1036px 926px 2369px 245px; }
+  .aEcommerce li {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    opacity: 0.8; }
+
+.bEcommerce {
+  position: absolute;
+  width: 360px;
+  height: 110px;
+  margin: 1182px 926px 2369px 245px; }
+  .bEcommerce li {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    opacity: 0.8; }
+
+.cEcommerce {
+  position: absolute;
+  width: auto;
+  height: 132px;
+  margin: 1308px 926px 2369px 245px; }
+  .cEcommerce li {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    opacity: 0.8; }
+
+.webInstitucional {
+  position: absolute;
+  width: 312px;
+  height: 91px;
+  margin: 934px 926px 2369px 644px;
+  display: flex;
+  align-items: center; }
+  .webInstitucional h4 {
+    font-family: "Cardo", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 49px;
+    color: #084347;
+    margin-left: 15px;
+    display: inline-block; }
+
+.dEcommerce {
+  position: absolute;
+  width: 300px;
+  height: 66px;
+  margin: 1036px 926px 2369px 644px; }
+  .dEcommerce li {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    opacity: 0.8; }
+
+.eEcommerce {
+  position: absolute;
+  width: 268px;
+  height: 66px;
+  margin: 1119px 926px 2369px 644px; }
+  .eEcommerce li {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    opacity: 0.8; }
+
+.fEcommerce {
+  position: absolute;
+  width: 250px;
+  height: 88px;
+  margin: 1214px 926px 2369px 644px; }
+  .fEcommerce li {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    opacity: 0.8; }
+
+.gEcommerce {
+  position: absolute;
+  width: 380px;
+  height: 88px;
+  margin: 1315px 926px 2369px 644px; }
+  .gEcommerce li {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    opacity: 0.8; }
+
+.oneCel {
+  position: absolute;
+  width: 600px;
+  height: 450px;
+  margin: 903px 60px 2043px 830px; }
+
+.secondCel {
+  position: absolute;
+  width: 500px;
+  height: 375px;
+  margin: 1108px 65px 1943px 1055px; }
+
+#proyectos {
+  position: absolute;
+  width: 1540px;
+  height: 760px;
+  margin: 1500px 800px 1165px -10px;
+  background-color: #084347; }
+  #proyectos .title {
+    width: 265px;
+    height: 87px;
+    margin: 53px 613px 620px 562px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    #proyectos .title h3 {
+      font-family: 'Cardo', sans-serif;
       font-style: normal;
-      font-weight: bold;
-      font-size: 36px;
-      line-height: 49px;
-      display: flex;
-      align-items: center;
+      font-weight: normal;
+      font-size: 60px;
+      line-height: 87px;
+      color: #F2F2F2; }
+
+.pcContainer {
+  position: absolute;
+  width: 1300px;
+  height: 450px;
+  margin: -610px 748px 129px 92px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+#partners {
+  position: absolute;
+  width: 1540px;
+  height: 368px;
+  margin: 2200px 800px 1665px -10px;
+  background-color: #E5E5E5; }
+  #partners .title {
+    width: 220px;
+    height: 87px;
+    margin: 23px 653px 620px 582px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    #partners .title h3 {
+      font-family: 'Cardo', sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 58px;
+      line-height: 87px;
       color: #084347; }
+
+.partnersLogos {
+  width: 900px;
+  height: 101px;
+  margin: -600px 803px 852px 245px;
+  display: flex;
+  justify-content: space-between; }
