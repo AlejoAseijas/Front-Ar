@@ -1,4 +1,39 @@
 $(document).ready(function () {
+
+    /*$('.inicio').hover(function () {
+        $('.inicioDesplegado').css('width', '240px');
+    }, function () {
+        $('.inicioDesplegado').css('width', '0px');
+    });*/
+
+    $('.desarrollos').hover(function () {
+        $('.desarrollosDesplegado').css('width', '240px');
+    }, function () {
+        $('.desarrollosDesplegado').css('width', '0px');
+    });
+
+
+    $('.proyectos').hover(function () {
+        $('.proyectosDesplegado').css('width', '240px');
+    }, function () {
+        $('.proyectosDesplegado').css('width', '0px');
+    });
+
+    $('.proyectos').hover(function () {
+        $('.proyectosDesplegado').css('width', '240px');
+    }, function () {
+        $('.proyectosDesplegado').css('width', '0px');
+    });
+
+    $('.contacto').hover(function () {
+        $('.contactoDesplegado').css('width', '240px');
+
+    }, function () {
+        $('.contactoDesplegado').css('width', '0px');
+    });
+
+
+
     $('.inicio').click(function (e) {
         e.preventDefault();
         $('html, body').animate({

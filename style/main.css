@@ -96,10 +96,24 @@ header #homeComponent {
       position: absolute;
       width: 240px;
       height: 63px;
+      background: #084347;
       right: 0px;
       top: 0px;
-      background: #084347;
       border-radius: 50px; }
+      header #homeComponent nav ul li .inicioDesplegado .inicioText {
+        display: inline-block;
+        width: 172px;
+        height: 62px; }
+        header #homeComponent nav ul li .inicioDesplegado .inicioText h3 {
+          width: 68px;
+          margin-top: 19px;
+          margin-left: 80px;
+          font-family: 'Cardo', sans-serif;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 24px;
+          line-height: 32px;
+          color: #FFFFFF; }
       header #homeComponent nav ul li .inicioDesplegado .inicio {
         float: right;
         width: 63px;
@@ -107,6 +121,7 @@ header #homeComponent {
         top: 790px;
         border-radius: 50%;
         box-shadow: 0px 4px 10px 2px rgba(0, 0, 0, 0.25);
+        background: #084347;
         display: flex;
         align-items: center;
         justify-content: center; }
@@ -116,7 +131,7 @@ header #homeComponent {
           background-image: url(./img/homeIcon.png); }
     header #homeComponent nav ul li .desarrollosDesplegado {
       position: absolute;
-      width: 240px;
+      width: 0px;
       height: 63px;
       right: 0px;
       top: 80px;
@@ -128,6 +143,7 @@ header #homeComponent {
         height: 63px;
         top: 790px;
         border-radius: 50%;
+        background: #084347;
         box-shadow: 0px 4px 10px 2px rgba(0, 0, 0, 0.25);
         display: flex;
         align-items: center;
@@ -138,7 +154,7 @@ header #homeComponent {
           background-image: url(./img/desarrolloIcon.png); }
     header #homeComponent nav ul li .proyectosDesplegado {
       position: absolute;
-      width: 240px;
+      width: 0px;
       height: 63px;
       right: 0px;
       top: 160px;
@@ -151,6 +167,7 @@ header #homeComponent {
         top: 790px;
         border-radius: 50%;
         box-shadow: 0px 4px 10px 2px rgba(0, 0, 0, 0.25);
+        background: #084347;
         display: flex;
         align-items: center;
         justify-content: center; }
@@ -158,31 +175,9 @@ header #homeComponent {
           width: 35px;
           height: 35px;
           background-image: url(./img/proyectosIcon.png); }
-    header #homeComponent nav ul li .desarrollosDesplegado {
-      position: absolute;
-      width: 240px;
-      height: 63px;
-      right: 0px;
-      top: 80px;
-      background: #084347;
-      border-radius: 50px; }
-      header #homeComponent nav ul li .desarrollosDesplegado .desarrollos {
-        float: right;
-        width: 63px;
-        height: 63px;
-        top: 790px;
-        border-radius: 50%;
-        box-shadow: 0px 4px 10px 2px rgba(0, 0, 0, 0.25);
-        display: flex;
-        align-items: center;
-        justify-content: center; }
-        header #homeComponent nav ul li .desarrollosDesplegado .desarrollos .desarrollosImg {
-          width: 35px;
-          height: 35px;
-          background-image: url(./img/desarrolloIcon.png); }
     header #homeComponent nav ul li .contactoDesplegado {
       position: absolute;
-      width: 240px;
+      width: 0px;
       height: 63px;
       right: 0px;
       top: 240px;
@@ -195,6 +190,7 @@ header #homeComponent {
         top: 790px;
         border-radius: 50%;
         box-shadow: 0px 4px 10px 2px rgba(0, 0, 0, 0.25);
+        background: #084347;
         display: flex;
         align-items: center;
         justify-content: center; }
