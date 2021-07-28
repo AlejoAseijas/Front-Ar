@@ -94,42 +94,44 @@ header #homeComponent {
     list-style: none; }
     header #homeComponent nav ul li .inicioDesplegado {
       position: absolute;
-      width: 240px;
+      width: 0px;
       height: 63px;
       background: #084347;
       right: 0px;
       top: 0px;
-      border-radius: 50px; }
-      header #homeComponent nav ul li .inicioDesplegado .inicioText {
-        display: inline-block;
-        width: 172px;
-        height: 62px; }
-        header #homeComponent nav ul li .inicioDesplegado .inicioText h3 {
-          width: 68px;
-          margin-top: 19px;
-          margin-left: 80px;
-          font-family: 'Cardo', sans-serif;
-          font-style: normal;
-          font-weight: normal;
-          font-size: 24px;
-          line-height: 32px;
-          color: #FFFFFF; }
-      header #homeComponent nav ul li .inicioDesplegado .inicio {
-        float: right;
-        width: 63px;
-        height: 63px;
-        top: 790px;
-        border-radius: 50%;
-        box-shadow: 0px 4px 10px 2px rgba(0, 0, 0, 0.25);
-        background: #084347;
-        display: flex;
-        align-items: center;
-        justify-content: center; }
-        header #homeComponent nav ul li .inicioDesplegado .inicio .inicioImg {
-          width: 35px;
-          height: 35px;
-          background-image: url(./img/homeIcon.png); }
-    header #homeComponent nav ul li .desarrollosDesplegado {
+      border-radius: 50px;
+      /*.inicioText {
+                    display: inline-block;
+                    width: 172px;
+                    height: 62px;
+
+                    h3 {
+                        width: 68px;
+                        margin-top: 19px;
+                        margin-left: 80px;
+                        font-family: 'Cardo', sans-serif;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 24px;
+                        line-height: 32px;
+                        color: #FFFFFF;
+                    }*/ }
+    header #homeComponent nav ul li .inicio {
+      float: right;
+      width: 63px;
+      height: 63px;
+      top: 790px;
+      border-radius: 50%;
+      box-shadow: 0px 4px 10px 2px rgba(0, 0, 0, 0.25);
+      background: #084347;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+      header #homeComponent nav ul li .inicio .inicioImg {
+        width: 35px;
+        height: 35px;
+        background-image: url(./img/homeIcon.png); }
+    header #homeComponent nav ul .desarrollosDesplegado {
       position: absolute;
       width: 0px;
       height: 63px;
@@ -137,7 +139,7 @@ header #homeComponent {
       top: 80px;
       background: #084347;
       border-radius: 50px; }
-      header #homeComponent nav ul li .desarrollosDesplegado .desarrollos {
+      header #homeComponent nav ul .desarrollosDesplegado .desarrollos {
         float: right;
         width: 63px;
         height: 63px;
@@ -148,11 +150,11 @@ header #homeComponent {
         display: flex;
         align-items: center;
         justify-content: center; }
-        header #homeComponent nav ul li .desarrollosDesplegado .desarrollos .desarrollosImg {
+        header #homeComponent nav ul .desarrollosDesplegado .desarrollos .desarrollosImg {
           width: 35px;
           height: 35px;
           background-image: url(./img/desarrolloIcon.png); }
-    header #homeComponent nav ul li .proyectosDesplegado {
+    header #homeComponent nav ul .proyectosDesplegado {
       position: absolute;
       width: 0px;
       height: 63px;
@@ -160,7 +162,7 @@ header #homeComponent {
       top: 160px;
       background: #084347;
       border-radius: 50px; }
-      header #homeComponent nav ul li .proyectosDesplegado .proyectos {
+      header #homeComponent nav ul .proyectosDesplegado .proyectos {
         float: right;
         width: 63px;
         height: 63px;
@@ -171,11 +173,11 @@ header #homeComponent {
         display: flex;
         align-items: center;
         justify-content: center; }
-        header #homeComponent nav ul li .proyectosDesplegado .proyectos .proyectosImg {
+        header #homeComponent nav ul .proyectosDesplegado .proyectos .proyectosImg {
           width: 35px;
           height: 35px;
           background-image: url(./img/proyectosIcon.png); }
-    header #homeComponent nav ul li .contactoDesplegado {
+    header #homeComponent nav ul .contactoDesplegado {
       position: absolute;
       width: 0px;
       height: 63px;
@@ -183,7 +185,7 @@ header #homeComponent {
       top: 240px;
       background: #084347;
       border-radius: 50px; }
-      header #homeComponent nav ul li .contactoDesplegado .contacto {
+      header #homeComponent nav ul .contactoDesplegado .contacto {
         float: right;
         width: 63px;
         height: 63px;
@@ -194,25 +196,26 @@ header #homeComponent {
         display: flex;
         align-items: center;
         justify-content: center; }
-        header #homeComponent nav ul li .contactoDesplegado .contacto .contactoImg {
+        header #homeComponent nav ul .contactoDesplegado .contacto .contactoImg {
           width: 35px;
           height: 35px;
           background-image: url(./img/contactoIcon.png); }
-  header #homeComponent .wspItem {
-    position: absolute;
-    width: 80px;
-    height: 80px;
-    margin: 1166px 232px 95px 1465px;
-    background-color: #084347;
-    box-shadow: 0px 4px 10px 2px rgba(0, 0, 0, 0.25);
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center; }
-    header #homeComponent .wspItem .wsp {
-      width: 55px;
-      height: 56px;
-      background-image: url("../style/img/wspIcon.png"); }
+
+.wspItem {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  margin: 1166px 232px 95px 1465px;
+  background-color: #084347;
+  box-shadow: 0px 4px 10px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .wspItem .wsp {
+    width: 55px;
+    height: 56px;
+    background-image: url("../style/img/wspIcon.png"); }
 
 section #desarrollos {
   grid-area: desarrollos; }
@@ -240,7 +243,8 @@ section #desarrollos {
     width: 269px;
     height: 91px;
     display: flex;
-    align-items: center; }
+    align-items: center;
+    border-bottom: 9px solid #084347; }
     section #desarrollos .ecommerceSection h4 {
       top: 837px;
       left: 245px;
@@ -258,6 +262,7 @@ section #desarrollos {
     font-weight: 900;
     color: #000000; }
   section #desarrollos .aEcommerce {
+    display: block;
     position: absolute;
     top: 939px;
     left: 187px;
@@ -272,6 +277,7 @@ section #desarrollos {
       color: #000000;
       opacity: 0.8; }
   section #desarrollos .bEcommerce {
+    display: block;
     position: absolute;
     width: 360px;
     height: 110px;
@@ -286,6 +292,7 @@ section #desarrollos {
       color: #000000;
       opacity: 0.8; }
   section #desarrollos .cEcommerce {
+    display: block;
     position: absolute;
     width: auto;
     height: 132px;
@@ -317,6 +324,7 @@ section #desarrollos {
       margin-left: 15px;
       display: inline-block; }
   section #desarrollos .dEcommerce {
+    display: block;
     position: absolute;
     width: 300px;
     height: 66px;
@@ -331,6 +339,7 @@ section #desarrollos {
       color: #000000;
       opacity: 0.8; }
   section #desarrollos .eEcommerce {
+    display: block;
     position: absolute;
     width: 268px;
     height: 66px;
@@ -345,6 +354,7 @@ section #desarrollos {
       color: #000000;
       opacity: 0.8; }
   section #desarrollos .fEcommerce {
+    display: block;
     position: absolute;
     width: 250px;
     height: 88px;
@@ -359,6 +369,7 @@ section #desarrollos {
       color: #000000;
       opacity: 0.8; }
   section #desarrollos .gEcommerce {
+    display: block;
     position: absolute;
     width: 380px;
     height: 88px;
