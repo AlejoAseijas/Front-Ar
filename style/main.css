@@ -92,31 +92,29 @@ header #homeComponent {
     position: absolute;
     margin: 790px 232px 488px 1492px;
     list-style: none; }
-    header #homeComponent nav ul li .inicioDesplegado {
+    header #homeComponent nav ul .inicioDesplegado {
       position: absolute;
       width: 0px;
       height: 63px;
       background: #084347;
       right: 0px;
       top: 0px;
-      border-radius: 50px;
-      /*.inicioText {
-                    display: inline-block;
-                    width: 172px;
-                    height: 62px;
-
-                    h3 {
-                        width: 68px;
-                        margin-top: 19px;
-                        margin-left: 80px;
-                        font-family: 'Cardo', sans-serif;
-                        font-style: normal;
-                        font-weight: normal;
-                        font-size: 24px;
-                        line-height: 32px;
-                        color: #FFFFFF;
-                    }*/ }
-    header #homeComponent nav ul li .inicio {
+      border-radius: 50px; }
+      header #homeComponent nav ul .inicioDesplegado .inicioText {
+        display: none;
+        width: 172px;
+        height: 62px; }
+        header #homeComponent nav ul .inicioDesplegado .inicioText h3 {
+          width: 68px;
+          margin-top: 19px;
+          margin-left: 80px;
+          font-family: 'Cardo', sans-serif;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 24px;
+          line-height: 32px;
+          color: #FFFFFF; }
+    header #homeComponent nav ul .inicio {
       float: right;
       width: 63px;
       height: 63px;
@@ -127,7 +125,7 @@ header #homeComponent {
       display: flex;
       align-items: center;
       justify-content: center; }
-      header #homeComponent nav ul li .inicio .inicioImg {
+      header #homeComponent nav ul .inicio .inicioImg {
         width: 35px;
         height: 35px;
         background-image: url(./img/homeIcon.png); }
@@ -139,21 +137,35 @@ header #homeComponent {
       top: 80px;
       background: #084347;
       border-radius: 50px; }
-      header #homeComponent nav ul .desarrollosDesplegado .desarrollos {
-        float: right;
-        width: 63px;
-        height: 63px;
-        top: 790px;
-        border-radius: 50%;
-        background: #084347;
-        box-shadow: 0px 4px 10px 2px rgba(0, 0, 0, 0.25);
-        display: flex;
-        align-items: center;
-        justify-content: center; }
-        header #homeComponent nav ul .desarrollosDesplegado .desarrollos .desarrollosImg {
-          width: 35px;
-          height: 35px;
-          background-image: url(./img/desarrolloIcon.png); }
+      header #homeComponent nav ul .desarrollosDesplegado .desarrolloText {
+        display: none;
+        width: 172px;
+        height: 62px; }
+        header #homeComponent nav ul .desarrollosDesplegado .desarrolloText h3 {
+          width: 68px;
+          margin-top: 19px;
+          margin-left: 50px;
+          font-family: 'Cardo', sans-serif;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 24px;
+          line-height: 32px;
+          color: #FFFFFF; }
+    header #homeComponent nav ul .desarrollos {
+      float: right;
+      width: 63px;
+      height: 63px;
+      top: 790px;
+      border-radius: 50%;
+      background: #084347;
+      box-shadow: 0px 4px 10px 2px rgba(0, 0, 0, 0.25);
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+      header #homeComponent nav ul .desarrollos .desarrollosImg {
+        width: 35px;
+        height: 35px;
+        background-image: url(./img/desarrolloIcon.png); }
     header #homeComponent nav ul .proyectosDesplegado {
       position: absolute;
       width: 0px;
@@ -162,21 +174,35 @@ header #homeComponent {
       top: 160px;
       background: #084347;
       border-radius: 50px; }
-      header #homeComponent nav ul .proyectosDesplegado .proyectos {
-        float: right;
-        width: 63px;
-        height: 63px;
-        top: 790px;
-        border-radius: 50%;
-        box-shadow: 0px 4px 10px 2px rgba(0, 0, 0, 0.25);
-        background: #084347;
-        display: flex;
-        align-items: center;
-        justify-content: center; }
-        header #homeComponent nav ul .proyectosDesplegado .proyectos .proyectosImg {
-          width: 35px;
-          height: 35px;
-          background-image: url(./img/proyectosIcon.png); }
+      header #homeComponent nav ul .proyectosDesplegado .proyectoText {
+        display: none;
+        width: 172px;
+        height: 62px; }
+        header #homeComponent nav ul .proyectosDesplegado .proyectoText h3 {
+          width: 68px;
+          margin-top: 19px;
+          margin-left: 60px;
+          font-family: 'Cardo', sans-serif;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 24px;
+          line-height: 32px;
+          color: #FFFFFF; }
+    header #homeComponent nav ul .proyectos {
+      float: right;
+      width: 63px;
+      height: 63px;
+      top: 790px;
+      border-radius: 50%;
+      box-shadow: 0px 4px 10px 2px rgba(0, 0, 0, 0.25);
+      background: #084347;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+      header #homeComponent nav ul .proyectos .proyectosImg {
+        width: 35px;
+        height: 35px;
+        background-image: url(./img/proyectosIcon.png); }
     header #homeComponent nav ul .contactoDesplegado {
       position: absolute;
       width: 0px;
@@ -185,21 +211,35 @@ header #homeComponent {
       top: 240px;
       background: #084347;
       border-radius: 50px; }
-      header #homeComponent nav ul .contactoDesplegado .contacto {
-        float: right;
-        width: 63px;
-        height: 63px;
-        top: 790px;
-        border-radius: 50%;
-        box-shadow: 0px 4px 10px 2px rgba(0, 0, 0, 0.25);
-        background: #084347;
-        display: flex;
-        align-items: center;
-        justify-content: center; }
-        header #homeComponent nav ul .contactoDesplegado .contacto .contactoImg {
-          width: 35px;
-          height: 35px;
-          background-image: url(./img/contactoIcon.png); }
+      header #homeComponent nav ul .contactoDesplegado .contactoText {
+        display: none;
+        width: 172px;
+        height: 62px; }
+        header #homeComponent nav ul .contactoDesplegado .contactoText h3 {
+          width: 68px;
+          margin-top: 19px;
+          margin-left: 60px;
+          font-family: 'Cardo', sans-serif;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 24px;
+          line-height: 32px;
+          color: #FFFFFF; }
+    header #homeComponent nav ul .contacto {
+      float: right;
+      width: 63px;
+      height: 63px;
+      top: 790px;
+      border-radius: 50%;
+      box-shadow: 0px 4px 10px 2px rgba(0, 0, 0, 0.25);
+      background: #084347;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+      header #homeComponent nav ul .contacto .contactoImg {
+        width: 35px;
+        height: 35px;
+        background-image: url(./img/contactoIcon.png); }
 
 .wspItem {
   position: absolute;

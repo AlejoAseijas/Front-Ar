@@ -1,61 +1,37 @@
-function buildTag(nameCategory) {
-    let categoryText = `<div class= "categorytext">  </div>`
-    $(categoryText).css('display', 'inline-block');
-    $(categoryText).css('width', '172px');
-    $(categoryText).css('height', '62px');
-    let nameMenu = `<h3> ${nameCategory} </h3>`
-    $(nameMenu).css('width', '68px');
-    $(nameMenu).css('margin-top', '19px');
-    $(nameMenu).css('margin-left', '80px');
-    $(nameMenu).css('font-family', 'Cardo,sans-serif');
-    $(nameMenu).css('font-style', 'normal');
-    $(nameMenu).css('font-weight', 'normal');
-    $(nameMenu).css('font-size', '24px');
-    $(nameMenu).css('line-height', '32px');
-    $(nameMenu).css('color', '#FFFFFF');
-    $(categoryText).append(nameMenu);
-    return categoryText;
-}
-
-
-
 $(document).ready(function () {
 
     $('.inicio').hover(function () {
-        let newTag = buildTag("inicio");
         $('.inicioDesplegado').css('width', '240px');
+        $('.inicioText').css('display', 'inline-block');
     }, function () {
         $('.inicioDesplegado').css('width', '0px');
+        $('.inicioText').css('display', 'none');
     });
 
     $('.desarrollos').hover(function () {
-        let newTag = buildTag("desarrollos");
         $('.desarrollosDesplegado').css('width', '240px');
-        console.log(newTag);
+        $('.desarrolloText').css('display', 'inline-block');
     }, function () {
         $('.desarrollosDesplegado').css('width', '0px');
+        $('.desarrolloText').css('display', 'none');
     });
 
 
     $('.proyectos').hover(function () {
-        let newTag = buildTag("proyectos");
         $('.proyectosDesplegado').css('width', '240px');
+        $('.proyectoText').css('display', 'inline-block');
     }, function () {
         $('.proyectosDesplegado').css('width', '0px');
-    });
-
-    $('.proyectos').hover(function () {
-        $('.proyectosDesplegado').css('width', '240px');
-    }, function () {
-        $('.proyectosDesplegado').css('width', '0px');
+        $('.proyectoText').css('display', 'none');
     });
 
     $('.contacto').hover(function () {
-        let newTag = buildTag("contacto");
         $('.contactoDesplegado').css('width', '240px');
+        $('.contactoText').css('display', 'inline-block');
 
     }, function () {
         $('.contactoDesplegado').css('width', '0px');
+        $('.contactoText').css('display', 'none');
     });
 
 

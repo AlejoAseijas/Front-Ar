@@ -118,53 +118,55 @@ header #homeComponent {
         margin: 790px 232px 488px 1492px;
         list-style: none;
 
-        li {
-            .inicioDesplegado {
-                position: absolute;
-                width: 0px;
-                height: 63px;
-                background: #084347;
-                right: 0px;
-                top: 0px;
-                border-radius: 50px;
 
-                /*.inicioText {
-                    display: inline-block;
-                    width: 172px;
-                    height: 62px;
+        .inicioDesplegado {
+            position: absolute;
+            width: 0px;
+            height: 63px;
+            background: #084347;
+            right: 0px;
+            top: 0px;
+            border-radius: 50px;
 
-                    h3 {
-                        width: 68px;
-                        margin-top: 19px;
-                        margin-left: 80px;
-                        font-family: 'Cardo', sans-serif;
-                        font-style: normal;
-                        font-weight: normal;
-                        font-size: 24px;
-                        line-height: 32px;
-                        color: #FFFFFF;
-                    }*/
-            }
+            .inicioText {
+                display: none;
+                width: 172px;
+                height: 62px;
 
-            .inicio {
-                float: right;
-                width: 63px;
-                height: 63px;
-                top: 790px;
-                border-radius: 50%;
-                box-shadow: 0px 4px 10px 2px rgba(0, 0, 0, 0.25);
-                background: #084347;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-
-                .inicioImg {
-                    width: 35px;
-                    height: 35px;
-                    background-image: url(./img/homeIcon.png);
+                h3 {
+                    width: 68px;
+                    margin-top: 19px;
+                    margin-left: 80px;
+                    font-family: 'Cardo', sans-serif;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 24px;
+                    line-height: 32px;
+                    color: #FFFFFF;
                 }
             }
         }
+
+        .inicio {
+            float: right;
+            width: 63px;
+            height: 63px;
+            top: 790px;
+            border-radius: 50%;
+            box-shadow: 0px 4px 10px 2px rgba(0, 0, 0, 0.25);
+            background: #084347;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .inicioImg {
+                width: 35px;
+                height: 35px;
+                background-image: url(./img/homeIcon.png);
+            }
+        }
+
+
 
 
         .desarrollosDesplegado {
@@ -176,25 +178,44 @@ header #homeComponent {
             background: #084347;
             border-radius: 50px;
 
-            .desarrollos {
-                float: right;
-                width: 63px;
-                height: 63px;
-                top: 790px;
-                border-radius: 50%;
-                background: #084347;
-                box-shadow: 0px 4px 10px 2px rgba(0, 0, 0, 0.25);
-                display: flex;
-                align-items: center;
-                justify-content: center;
+            .desarrolloText {
+                display: none;
+                width: 172px;
+                height: 62px;
 
-                .desarrollosImg {
-                    width: 35px;
-                    height: 35px;
-                    background-image: url(./img/desarrolloIcon.png);
+                h3 {
+                    width: 68px;
+                    margin-top: 19px;
+                    margin-left: 50px;
+                    font-family: 'Cardo', sans-serif;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 24px;
+                    line-height: 32px;
+                    color: #FFFFFF;
                 }
             }
         }
+
+        .desarrollos {
+            float: right;
+            width: 63px;
+            height: 63px;
+            top: 790px;
+            border-radius: 50%;
+            background: #084347;
+            box-shadow: 0px 4px 10px 2px rgba(0, 0, 0, 0.25);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .desarrollosImg {
+                width: 35px;
+                height: 35px;
+                background-image: url(./img/desarrolloIcon.png);
+            }
+        }
+
 
         .proyectosDesplegado {
             position: absolute;
@@ -205,26 +226,45 @@ header #homeComponent {
             background: #084347;
             border-radius: 50px;
 
-            .proyectos {
-                float: right;
-                width: 63px;
-                height: 63px;
-                top: 790px;
-                border-radius: 50%;
-                box-shadow: 0px 4px 10px 2px rgba(0, 0, 0, 0.25);
-                background: #084347;
-                display: flex;
-                align-items: center;
-                justify-content: center;
+            .proyectoText {
+                display: none;
+                width: 172px;
+                height: 62px;
 
-                .proyectosImg {
-                    width: 35px;
-                    height: 35px;
-                    background-image: url(./img/proyectosIcon.png);
+                h3 {
+                    width: 68px;
+                    margin-top: 19px;
+                    margin-left: 60px;
+                    font-family: 'Cardo', sans-serif;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 24px;
+                    line-height: 32px;
+                    color: #FFFFFF;
                 }
-
             }
         }
+
+        .proyectos {
+            float: right;
+            width: 63px;
+            height: 63px;
+            top: 790px;
+            border-radius: 50%;
+            box-shadow: 0px 4px 10px 2px rgba(0, 0, 0, 0.25);
+            background: #084347;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .proyectosImg {
+                width: 35px;
+                height: 35px;
+                background-image: url(./img/proyectosIcon.png);
+            }
+
+        }
+
 
         .contactoDesplegado {
             position: absolute;
@@ -235,26 +275,43 @@ header #homeComponent {
             background: #084347;
             border-radius: 50px;
 
-            .contacto {
-                float: right;
-                width: 63px;
-                height: 63px;
-                top: 790px;
-                border-radius: 50%;
-                box-shadow: 0px 4px 10px 2px rgba(0, 0, 0, 0.25);
-                background: #084347;
-                display: flex;
-                align-items: center;
-                justify-content: center;
+            .contactoText {
+                display: none;
+                width: 172px;
+                height: 62px;
 
-                .contactoImg {
-                    width: 35px;
-                    height: 35px;
-                    background-image: url(./img/contactoIcon.png);
+                h3 {
+                    width: 68px;
+                    margin-top: 19px;
+                    margin-left: 60px;
+                    font-family: 'Cardo', sans-serif;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 24px;
+                    line-height: 32px;
+                    color: #FFFFFF;
                 }
             }
         }
 
+        .contacto {
+            float: right;
+            width: 63px;
+            height: 63px;
+            top: 790px;
+            border-radius: 50%;
+            box-shadow: 0px 4px 10px 2px rgba(0, 0, 0, 0.25);
+            background: #084347;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .contactoImg {
+                width: 35px;
+                height: 35px;
+                background-image: url(./img/contactoIcon.png);
+            }
+        }
     }
 }
 
@@ -276,8 +333,6 @@ header #homeComponent {
         background-image: url('../style/img/wspIcon.png');
     }
 }
-
-//}
 
 section #desarrollos {
     grid-area: desarrollos;
