@@ -682,13 +682,30 @@ footer {
   top: 2588px;
   left: 0px;
   background-color: #084347; }
-  footer .moveText {
+  footer .marquee {
     position: absolute;
     width: 1840px;
     height: 152px;
     top: 278px;
     left: -3px;
-    background: #F2F2F2; }
+    background: #F2F2F2;
+    text-transform: uppercase;
+    white-space: nowrap;
+    overflow: hidden; }
+    footer .marquee div h3 {
+      font-family: 'Lato', sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 48px;
+      line-height: 58px;
+      color: rgba(0, 0, 0, 0.8);
+      padding-left: 100%;
+      display: inline-block;
+      animation: animate 50s linear infinite; }
+
+@keyframes animate {
+  100% {
+    transform: translate(-100%, 0); } }
   footer .contacCircle {
     position: absolute;
     width: 270px;
