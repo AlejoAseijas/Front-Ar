@@ -66,7 +66,7 @@ $(document).ready(function () {
 
     $('.wspItem').click(function (e) {
         e.preventDefault();
-        window.open('https://api.whatsapp.com/send?phone=541138785999&text=Hola%2C%20como%20estan%3F%20Quisiera...');
+        window.open('https://api.whatsapp.com/send?phone=5493412753301&text=Hola%2C%20como%20estas%3F%20Como%20puedo%20Ayudarte%3F');
     });
 
     $('.webInstitucional').click(function (e) {
