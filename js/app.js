@@ -39,14 +39,14 @@ $(document).ready(function () {
     $('.inicio').click(function (e) {
         e.preventDefault();
         $('html, body').animate({
-            scrollTop: $('footer').offset().top
+            scrollTop: $('#homeComponent').offset().top
         }, 2000);
     });
 
     $('.desarrollos').click(function (e) {
         e.preventDefault();
         $('html, body').animate({
-            scrollTop: $('#desarrollos').offset().top
+            scrollTop: $('.desarrollosH3').offset().top
         }, 2000);
     });
 
@@ -78,6 +78,9 @@ $(document).ready(function () {
         $('.eEcommerce').css('display', 'none');
         $('.fEcommerce').css('display', 'none');
         $('.gEcommerce').css('display', 'none');
+        $('.aWeb').css('display', 'block');
+        $('.bWeb').css('display', 'block');
+        $('.webImg').css('display', 'block');
         $('.oneCel').css('display', 'none');
         $('.secondCel').css('display', 'none');
         $('.ecommerceSection').css('border-bottom', '0px');
@@ -97,6 +100,9 @@ $(document).ready(function () {
         $('.eEcommerce').css('display', 'block');
         $('.fEcommerce').css('display', 'block');
         $('.gEcommerce').css('display', 'block');
+        $('.aWeb').css('display', 'none');
+        $('.bWeb').css('display', 'none');
+        $('.webImg').css('display', 'none');
         $('.oneCel').css('display', 'block');
         $('.secondCel').css('display', 'block');
         $('.ecommerceSection').css('border-bottom', '9px solid #084347');
@@ -105,6 +111,36 @@ $(document).ready(function () {
         $('.webInstitucionalImg').attr('src', './style/img/webInstitucionalIconDisabled.png');
         $('.webInstitucionalText').css('color', 'rgba(10, 10, 10, 0.5)');
         $('.webInstitucional').css('border-bottom', '0px solid  #084347');
+    });
+
+    $('.pcOne').click(function (e) {
+        e.preventDefault();
+        window.open('https://www.idrogenojeans.com/');
+    });
+
+    $('.pcSecond').click(function (e) {
+        e.preventDefault();
+        window.open('https://www.idrogenojeans.com/');
+    });
+
+    $('.tiendaNube').hover(function () {
+        $('.tiendaNubeImg').attr('src', './style/img/tiendaNubeActive.png');
+        $('.tiendaNube').click(function (e) {
+            e.preventDefault();
+            window.open('https://www.tiendanube.com/?utm_source=google&utm_medium=cpc&utm_campaign=ar-web-search-brand-region-2-desktop-device_c-id_416305783162');
+        });
+    }, function () {
+        $('.tiendaNubeImg').attr('src', './style/img/tiendaNube.png');
+    });
+
+    $('.wix').hover(function () {
+        $('.wixImg').attr('src', './style/img/wixActived.png');
+        $('.wix').click(function (e) {
+            e.preventDefault();
+            window.open('https://es.wix.com/');
+        });
+    }, function () {
+        $('.wixImg').attr('src', './style/img/wix.png');
     });
 
 });

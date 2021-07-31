@@ -346,23 +346,6 @@ section #desarrollos {
       line-height: 22px;
       color: #000000;
       opacity: 0.8; }
-  section #desarrollos .webInstitucional {
-    position: absolute;
-    width: 312px;
-    height: 91px;
-    top: 834px;
-    left: 590px;
-    display: flex;
-    align-items: center; }
-    section #desarrollos .webInstitucional h4 {
-      font-family: "Cardo", sans-serif;
-      font-style: normal;
-      font-weight: bold;
-      font-size: 32px;
-      line-height: 49px;
-      color: rgba(10, 10, 10, 0.5);
-      margin-left: 15px;
-      display: inline-block; }
   section #desarrollos .dEcommerce {
     display: block;
     position: absolute;
@@ -423,6 +406,53 @@ section #desarrollos {
       line-height: 22px;
       color: #000000;
       opacity: 0.8; }
+  section #desarrollos .webInstitucional {
+    position: absolute;
+    width: 312px;
+    height: 91px;
+    top: 834px;
+    left: 590px;
+    display: flex;
+    align-items: center; }
+    section #desarrollos .webInstitucional h4 {
+      font-family: "Cardo", sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 32px;
+      line-height: 49px;
+      color: rgba(10, 10, 10, 0.5);
+      margin-left: 15px;
+      display: inline-block; }
+    section #desarrollos .webInstitucional .aWeb {
+      display: none;
+      position: absolute;
+      width: 301px;
+      height: 220px;
+      top: 170px;
+      left: -401px; }
+      section #desarrollos .webInstitucional .aWeb li {
+        font-family: 'Lato', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 22px;
+        color: #000000;
+        opacity: 0.8; }
+    section #desarrollos .webInstitucional .bWeb {
+      display: none;
+      position: absolute;
+      width: 301px;
+      height: 220px;
+      top: 170px;
+      left: 0px; }
+      section #desarrollos .webInstitucional .bWeb li {
+        font-family: 'Lato', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 22px;
+        color: #000000;
+        opacity: 0.8; }
   section #desarrollos .oneCel {
     position: absolute;
     width: 600px;
@@ -435,6 +465,13 @@ section #desarrollos {
     height: 375px;
     top: 970px;
     left: 1005px; }
+  section #desarrollos .webImg {
+    display: none;
+    position: absolute;
+    width: 450px;
+    height: 337px;
+    top: 887px;
+    left: 950px; }
 
 #proyectos {
   grid-area: proyectos;
@@ -459,14 +496,148 @@ section #desarrollos {
     position: absolute;
     width: 600px;
     height: 450px;
-    top: 140px;
+    top: 220px;
     left: 92px; }
+    #proyectos .pcOne h3 {
+      display: none; }
+  #proyectos .pcOne:hover {
+    position: absolute;
+    width: 600px;
+    height: 450px;
+    left: 101px;
+    top: 155px;
+    border-radius: 20px;
+    background: rgba(196, 196, 196, 0.48); }
+    #proyectos .pcOne:hover img {
+      opacity: 0.5; }
+    #proyectos .pcOne:hover .circle {
+      position: absolute;
+      width: 105px;
+      height: 105px;
+      border-radius: 50%;
+      border: 5px solid rgba(15, 15, 15, 0.8);
+      box-sizing: border-box;
+      top: 157px;
+      left: 247px;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      #proyectos .pcOne:hover .circle h3 {
+        display: block;
+        position: absolute;
+        font-family: 'Lato', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 72px;
+        line-height: 86px;
+        color: rgba(10, 9, 9, 0.8); }
+    #proyectos .pcOne:hover .idroText {
+      position: absolute;
+      width: 389px;
+      height: 43px;
+      left: 105px;
+      top: 349px;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      #proyectos .pcOne:hover .idroText h3 {
+        display: block;
+        font-family: 'Lato', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 43px;
+        color: rgba(6, 6, 6, 0.9); }
+    #proyectos .pcOne:hover .idroDescription {
+      position: absolute;
+      width: 370px;
+      height: 29px;
+      left: 115px;
+      top: 392px;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      #proyectos .pcOne:hover .idroDescription h3 {
+        display: block;
+        font-family: 'Lato', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 29px;
+        color: rgba(15, 15, 15, 0.8); }
   #proyectos .pcSecond {
     position: absolute;
     width: 600px;
     height: 450px;
-    top: 140px;
+    top: 220px;
     left: 758px; }
+    #proyectos .pcSecond h3 {
+      display: none; }
+  #proyectos .pcSecond:hover {
+    position: absolute;
+    width: 600px;
+    height: 450px;
+    left: 758px;
+    top: 220px;
+    border-radius: 20px;
+    background: rgba(196, 196, 196, 0.48); }
+    #proyectos .pcSecond:hover img {
+      opacity: 0.5; }
+    #proyectos .pcSecond:hover .circle {
+      position: absolute;
+      width: 105px;
+      height: 105px;
+      border-radius: 50%;
+      border: 5px solid rgba(15, 15, 15, 0.8);
+      box-sizing: border-box;
+      top: 157px;
+      left: 247px;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      #proyectos .pcSecond:hover .circle h3 {
+        display: block;
+        position: absolute;
+        font-family: 'Lato', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 72px;
+        line-height: 86px;
+        color: rgba(10, 9, 9, 0.8); }
+    #proyectos .pcSecond:hover .idroText {
+      position: absolute;
+      width: 389px;
+      height: 43px;
+      left: 105px;
+      top: 349px;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      #proyectos .pcSecond:hover .idroText h3 {
+        display: block;
+        font-family: 'Lato', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 43px;
+        color: rgba(6, 6, 6, 0.9); }
+    #proyectos .pcSecond:hover .idroDescription {
+      position: absolute;
+      width: 370px;
+      height: 29px;
+      left: 115px;
+      top: 392px;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      #proyectos .pcSecond:hover .idroDescription h3 {
+        display: block;
+        font-family: 'Lato', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 29px;
+        color: rgba(15, 15, 15, 0.8); }
 
 #partners {
   grid-area: partners;
