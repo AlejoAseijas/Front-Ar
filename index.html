@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <link rel="shortcut icon" href="./style/img/favicon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -212,6 +213,32 @@
         <div class="contacCircle">
             <h3>Contacto</h3>
         </div>
+        <div class="contactForm">
+            <form class="row g-3" id="myForm">
+                <div class="col-md-6">
+                  <label for="inputNamel4" class="form-label">Nombre</label>
+                  <input type="text" class="form-control" id="inputName14">
+                </div>
+                <div class="col-12">
+                  <label for="inputEmail" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="inputEmail">
+                </div>
+                <div class="col-12">
+                  <label for="inputPhoneNumber" class="form-label">Celular</label>
+                  <input type="text" class="form-control" id="inputPhoneNumber">
+                </div>
+                <div class="col-12">
+                  <label for="inputState" class="form-label">Motivo</label>
+                  <select id="inputState" class="form-select">
+                    <option>Ecommerce</option>
+                    <option>Web Institucional</option>
+                  </select>
+                </div>
+                <div class="col-12">
+                    <button type="submit" id="btnSend" class="btn btn-primary">Enviar</button>
+                </div>
+              </form>
+            </div>
     </footer>
 </body>
 </html>

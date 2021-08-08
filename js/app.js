@@ -1,5 +1,48 @@
-$(document).ready(function () {
+function getData() {
+    $('#btnSend').click(function (e) {
+        e.preventDefault();
+        e.preventDefault();
+        const name = $('#inputName14').val();
+        const email = $('#inputEmail').val();
+        const phoneNumber = $('#inputPhoneNumber').val();
+        const inputState = $('#inputState').val();
+        packageData(name, email, phoneNumber, inputState);
+    });
+}
 
+function packageData(NAME, EMAIL, PHONENUMBER, INPUTSTATE) {
+    var data = {
+        service_id: 'service_rj751mh',
+        template_id: 'template_06vj2qf',
+        user_id: 'user_D5d6Wk60QDEbQemLzybJs',
+        template_params: {
+            name: NAME,
+            email: EMAIL,
+            phoneNumber: PHONENUMBER,
+            inputState: INPUTSTATE
+        }
+    };
+    sendData(data);
+}
+
+function sendData(DATA) {
+    $.ajax('https://api.emailjs.com/api/v1.0/email/send', {
+        type: 'POST',
+        data: JSON.stringify(DATA),
+        contentType: 'application/json'
+    }).done(function () {
+        alert('Email Enviado');
+        $(".contactForm").animate({
+            width: 'toggle'
+        }, 500).delay(600);
+        $('#myForm')[0].reset();
+        $('.contactForm').fadeIn(600);
+    }).fail(function (error) {
+        alert('Oops... ' + JSON.stringify(error));
+    });
+}
+
+$(document).ready(function () {
     $('.inicio').hover(function () {
         $('.inicioDesplegado').css('width', '240px');
         $('.inicioText').css('display', 'inline-block');
@@ -150,4 +193,15 @@ $(document).ready(function () {
         $('.wixImg').attr('src', './style/img/wix.png');
     });
 
+    $('.contacCircle').click(function (e) {
+        e.preventDefault();
+        $('.marquee').css('display', 'none');
+        $('.contacCircle').css('display', 'none');
+        $('.contactForm').css('display', 'block');
+
+    });
+    $('#btnSend').click(function (e) {
+        e.preventDefault();
+        getData();
+    });
 });

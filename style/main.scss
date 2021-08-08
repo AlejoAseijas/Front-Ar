@@ -937,5 +937,29 @@ footer {
         }
     }
 
+    .contactForm {
+        display: none;
+        width: 600px;
+        height: 420px;
+        border: 1px solid black;
+        margin-left: 390px;
+        margin-top: 160px;
+        background-color: #F2F2F2;
+        border-radius: 15px;
+        padding: 20px;
+
+        #myForm {
+            display: grid;
+            justify-content: center;
+
+            .form-control {
+                width: 400px;
+            }
+
+            #btnSend {
+                margin-left: 150px;
+            }
+        }
+    }
 
 }

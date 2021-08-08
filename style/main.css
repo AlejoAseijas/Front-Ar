@@ -726,3 +726,20 @@ footer {
       font-size: 36px;
       line-height: 49px;
       color: #F2F2F2; }
+  footer .contactForm {
+    display: none;
+    width: 600px;
+    height: 420px;
+    border: 1px solid black;
+    margin-left: 390px;
+    margin-top: 160px;
+    background-color: #F2F2F2;
+    border-radius: 15px;
+    padding: 20px; }
+    footer .contactForm #myForm {
+      display: grid;
+      justify-content: center; }
+      footer .contactForm #myForm .form-control {
+        width: 400px; }
+      footer .contactForm #myForm #btnSend {
+        margin-left: 150px; }
